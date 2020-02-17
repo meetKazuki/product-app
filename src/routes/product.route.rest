@@ -1,0 +1,25 @@
+GET http://localhost:5000/products/test
+
+###
+
+GET http://localhost:5000/products/5e4ac11fec24e14a49df11f7
+
+###
+
+POST http://localhost:5000/products/create
+Content-Type: application/json
+
+{
+  "name": "Tea Party",
+  "price": 10000
+}
+
+###
+
+PUT http://localhost:5000/products/5e4ac11fec24e14a49df11f7
+Content-Type: application/application/json
+
+{
+  "name": "All Past Criminals",
+  "price": 800
+}
